@@ -54,8 +54,14 @@ header{
 .hero-title{
     font-size: 45px;
     margin-bottom: 15px;
+    transition: all 8s;
+    cursor: pointer;
+
 }
 .hero-desc{
     text-align: center;
     font-size: 18px;
+}
+.hero-title:hover{
+   color: red;
 }
