@@ -1,0 +1,34 @@
+#about{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(250, 249, 246);
+    display: flex;
+    
+    
+
+}
+.about{
+    padding: 50px;
+    height: 60%;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 150px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.135);
+
+    
+
+    
+}
+/* .title{
+    
+
+
+} */
+.about-img{
+    margin: 40px;
+    border-radius: 50%;
+}
+.info{
+    text-align: justify;
+}

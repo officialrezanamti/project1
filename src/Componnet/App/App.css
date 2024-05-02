@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: next;
+    scroll-behavior: smooth;
+
+
+}
+body{
+    background-color: rgb(250, 249, 246);
+}
+@font-face {
+    font-family: next;
+    src: url(../../../public/fonts/Poppins-Regular.ttf);
+}

@@ -1,0 +1,61 @@
+header{
+    background-image: url('/src/img/hero-bg.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+
+    
+}
+.navbar-container{
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    background-color: black;
+    
+    
+}
+.d-flex{
+    display: flex;
+    
+}
+.log{
+    transition: all .3s;
+    cursor: pointer;
+}
+.log:hover{
+    color: gray;
+
+}
+.d-flex li{
+    margin: 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.d-flex li:hover{
+    color: gray;
+}
+.center{
+    margin-top:400px;
+}
+.hero-title{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.hero-desc{
+    text-align: center;
+    font-size: 18px;
+}
